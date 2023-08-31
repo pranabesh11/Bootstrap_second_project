@@ -1,0 +1,220 @@
+/* thias is for navbar*/
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 0px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    border-radius: 0;
+    border: 0;
+    color: white;
+}
+
+@media only screen and (max-width:768px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -0px;
+    }
+}
+
+@media only screen and (max-width:1180px){
+    #searchform{
+        padding-bottom: 20px;
+    }
+}
+/*banner */
+#banner{
+    background-color: #125B50;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 50px;
+}
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#banner-btn-1{
+    background-color: #06113C;
+    border: 2px solid #55D8C1;
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid #1A132F;
+    margin-left: 105px;
+}
+#bannerimg{
+    padding-left: 100px;
+}
+@media only screen and (max-width:820px){
+    #bannertext h1{
+        color: white;
+        font-size: 30px;
+        
+    }
+    #bannerimg{
+        padding-left: 50px;
+        padding-top: 15px;
+    }
+}
+@media only screen and (max-width:912px){
+    #bannerimg{
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+}
+@media only screen and (max-width:414px){
+    #bannerimg{
+        padding-left: 45px;
+        padding-top: 25px;
+    }
+}
+
+/*services*/
+#sevice_text{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#service_btn{
+    color: white;
+    background-color: #06113C;
+    border: 2px solid springgreen;
+}
+#service_img{
+    padding: 5%;
+}
+@media only screen and (min-width:375px){
+    #sevice_text{
+        font-size: 2px;
+        
+    }
+}
+/*counter sectionn*/
+#counter_section{
+    
+    background-color: #151D3B;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+/*blog part */
+
+#blog{
+    padding-top: 70px;
+    padding-top: 70px;
+    background-color: #333C83;
+}
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+.artical-detail{
+    padding: 15px;
+   
+    border-top: 0;
+}
+.artical-date{
+    color: aqua;
+}
+.artical-link{
+    color: aqua;
+}
+@media only screen and (min-width:375px){
+    #blog{
+        padding-top: 0px;
+        padding-top: 0px;
+        
+    }
+}
+/*footer*/
+
+#footer{
+    background-color: #03045E;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-search-box{
+    background-color: #FF0075;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+#footer-search-submit{
+    background-color: #19eedc;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+
+}
+.social-icon{
+    font-size: 25px;
+    padding-left: 5px;
+}
+@media only screen and (min-width:375px ){
+    #title-here{
+        text-align: center;
+    }
+    #motiv-text{
+        text-align: center;
+    }
+    #services{
+        padding-top: 20px;
+    }
+    #footer-search-box{
+        background-color: #FF0075;
+        color: white;
+        border: 0;
+    }
+    #footer-search-submit{
+        background-color: #19eedc;
+        color: white;
+        
+    
+    }
+}
+/*THE END*/
